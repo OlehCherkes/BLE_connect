@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="lib\oui.c">
+      <Filter>oui</Filter>
+    </ClCompile>
+    <ClCompile Include="BleSensor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="oui">
+      <UniqueIdentifier>{5638fe43-f37b-4413-be29-0cea2f8b63c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lib\oui.h">
+      <Filter>oui</Filter>
+    </ClInclude>
+    <ClInclude Include="BleSensor.h" />
+  </ItemGroup>
+</Project>
